@@ -1,15 +1,14 @@
 {
-	"name": "babel_webpack",
+	"name": "commonjs_esm_webpack",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"main": "functional-utils-bundle.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack --mode=production",
 		"start": "webpack-dev-server --output-public-path=/build/"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "sarath",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.11.1",
 		"@babel/polyfill": "^7.10.4",
